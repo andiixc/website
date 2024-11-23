@@ -1,0 +1,146 @@
+/* style.css */
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #ffe4e1, #ffc1cc);
+  }
+  
+  .container {
+    background: #fff;
+    border-radius: 15px;
+    padding: 30px 40px;
+    max-width: 400px;
+    width: 90%;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .container:hover {
+    transform: scale(1.02);
+  }
+  
+  .form-title {
+    font-size: 2.5em;
+    color: #ff7b9c;
+    margin-bottom: 20px;
+  }
+  
+  .input-group {
+    position: relative;
+    margin: 20px 0;
+  }
+  
+  .input-group i {
+    position: absolute;
+    top: 14px;
+    left: 10px;
+    color: #ff7b9c;
+  }
+  
+  .input-group input[type="text"],
+  .input-group input[type="email"],
+  .input-group input[type="password"] {
+    width: 100%;
+    padding: 12px 10px 12px 35px;
+    border: 1.5px solid #ffbdd4;
+    border-radius: 8px;
+    box-sizing: border-box;
+    font-size: 1em;
+    transition: border-color 0.3s, box-shadow 0.3s;
+  }
+  
+  .input-group input[type="text"]:focus,
+  .input-group input[type="email"]:focus,
+  .input-group input[type="password"]:focus {
+    border-color: #ff7b9c;
+    outline: none;
+    box-shadow: 0 0 8px rgba(255, 183, 208, 0.6);
+  }
+  
+  .input-group label {
+    position: absolute;
+    top: -5px;
+    left: 35px;
+    background: #fff;
+    padding: 0 5px;
+    color: #ff6793;
+    font-size: 0.9em;
+    font-weight: bold;
+  }
+  
+  .btn {
+    background-color: #ff7b9c;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    padding: 12px 20px;
+    font-size: 1em;
+    font-weight: bold;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 15px;
+    transition: background-color 0.3s;
+  }
+  
+  .btn:hover {
+    background-color: #ff4a7d;
+    box-shadow: 0px 4px 15px rgba(255, 75, 125, 0.3);
+  }
+  
+  .or {
+    margin: 20px 0;
+    color: #555;
+    font-size: 0.9em;
+  }
+  
+  .icons {
+    margin: 10px 0;
+  }
+  
+  .icons i {
+    font-size: 1.5em;
+    color: #ff7b9c;
+    margin: 0 10px;
+    cursor: pointer;
+    transition: color 0.3s;
+  }
+  
+  .icons i:hover {
+    color: #ff4a7d;
+  }
+  
+  .links p {
+    font-size: 0.9em;
+    color: #555;
+  }
+  
+  .links button {
+    background: none;
+    border: none;
+    color: #ff7b9c;
+    font-weight: bold;
+    cursor: pointer;
+    transition: color 0.3s;
+  }
+  
+  .links button:hover {
+    color: #ff4a7d;
+  }
+  
+  .recover a {
+    color: #ff7b9c;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+  }
+  
+  .recover a:hover {
+    color: #ff4a7d;
+  }
+  

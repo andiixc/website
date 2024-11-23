@@ -1,0 +1,128 @@
+/* General Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #fce4ec; /* Light pink background */
+  color: #333;
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 2.5rem;
+  color: #ec407a; /* Pink color */
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  letter-spacing: 2px;
+}
+
+img {
+  width: 60%; /* Reduced the size to 60% of the container width */
+  max-width: 400px;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto; /* Centering the image */
+}
+
+p {
+  font-size: 1.2rem;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+.product-price {
+  font-size: 1.5rem;
+  color: #ec407a; /* Pink color */
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+form button {
+  background-color: #ec407a; /* Pink color */
+  color: white;
+  padding: 12px 20px;
+  font-size: 1.1rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  width: 200px;
+  transition: background-color 0.3s ease;
+}
+
+form button:hover {
+  background-color: #d81b60; /* Darker pink */
+}
+
+form button:focus {
+  outline: none;
+}
+
+/* Back Link */
+.back-link {
+  display: block;
+  text-align: center;
+  margin-top: 20px;
+  font-size: 1rem;
+}
+
+.back-link a {
+  text-decoration: none;
+  color: #ec407a; /* Pink color */
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.back-link a:hover {
+  color: #d81b60; /* Darker pink */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  img {
+    width: 80%;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  .product-price {
+    font-size: 1.4rem;
+  }
+}
+
+@media (max-width: 480px) {
+  h1 {
+    font-size: 1.8rem;
+  }
+
+  form button {
+    width: 100%;
+    padding: 10px;
+  }
+
+  img {
+    width: 90%;
+  }
+
+  .product-price {
+    font-size: 1.2rem;
+  }
+}
